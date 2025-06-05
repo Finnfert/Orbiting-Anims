@@ -69,12 +69,12 @@ function loop() {
     //Object 3
 
     ctx.beginPath();
-    ctx.arc( 300 + (Math.sin(delta) * 100), 200 + (Math.sin(delta + 1000) * 100), 20 , startAngle, endAngle, counterClockwise);
+    ctx.arc( 300 + (Math.sin(delta) * 100), 200 + (Math.sin(delta + 100) * 100), 20 , startAngle, endAngle, counterClockwise);
     ctx.fillStyle = 'rgb(245, 120, 18)';
     ctx.fill();
 
     ctx.beginPath();
-    ctx.arc( 300 + (Math.sin(delta * -2) * 100), 200 + (Math.sin(delta * -2 + 1000) * 100), 20 , startAngle, endAngle, counterClockwise);
+    ctx.arc( 300 + (Math.sin(delta * -2) * 100), 200 + (Math.sin(delta * -2 + 800) * 100), 20 , startAngle, endAngle, counterClockwise);
     ctx.fillStyle = 'rgb(146, 84, 34)';
     ctx.fill();
 
